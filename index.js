@@ -376,8 +376,8 @@ function checkWinner() {
 
         statusText.textContent =
             currentPlayer === "X"
-                ? "You win! 🎉"
-                : "Computer wins! 🤖";
+                ? "لقد فزت ! 🎉"
+                : " لقد خسرت! ";
 
         running = false;
 
